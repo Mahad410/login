@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon icon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <!-- css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Coming soon page</title>
+</head>
+
+<body>
+    <main>
+        <div class="grid">
+            <div class="logo">
+                <img src="logo.svg" width="150px" height="100px" alt="logo">
+            </div>
+            <div class="coming-soon">
+                <h1><span class="thin">WE'RE</span>
+                    <br> Coming
+                    <br> SOON
+                </h1>
+                <p class="intro-para">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with anouncements and our launch deals.</p>
+                <form>
+                    <input type="email" name="email" id="email" placeholder="Email Address">
+                    <button type="button" role="button" id="sub_btn"><img src="icon-arrow.svg"></button>
+                </form>
+                <p class="error-msg" id="err">Please provide a valid email</p>
+            </div>
+            <div class="grid-image">
+                <img src="hero-desktop.jpg" alt="hero-img" class="desktop">
+                <img src="hero-mobile.jpg" alt="hero-img" class="mobile">
+            </div>
+        </div>
+    </main>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="node_modules/index.js"></script>
+</body>
+
+</html>
