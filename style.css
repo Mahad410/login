@@ -29,6 +29,8 @@ main {
 
 .logo img {
     object-fit: contain;
+    width: 150px;
+    height: 100px;
 }
 
 .coming-soon {
