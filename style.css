@@ -4,12 +4,12 @@
     --black: #000;
     --pink: #ff7a7a;
     --purple: #6055a5;
-    --bg_desktop: url(/bg-intro-desktop.png);
-    --bg_mbl: url(/bg-intro-mobile.png);
+    --bg_desktop: url(bg-intro-desktop.png);
+    --bg_mbl: url(bg-intro-mobile.png);
     --green: #38cc8c;
     --silver: #ccc;
     --grayish: #b9b6d3;
-    --error: url(/icon-error.svg);
+    --error: url(error.svg);
     --visible: hidden;
 }
 
