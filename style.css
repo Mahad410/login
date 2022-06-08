@@ -157,6 +157,7 @@ a:hover {
     top: -48px;
     right: 10px;
     visibility: var(--visible);
+    z-index: 9999;
 }
 
 @media screen and (max-width:900px) {
