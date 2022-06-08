@@ -9,35 +9,47 @@
     <link rel="shortcut icon" type="image/png" href="favicon.png">
     <!-- css stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Coming soon page</title>
+    <title>Login page</title>
 </head>
 
 <body>
     <main>
         <div class="grid">
-            <div class="logo">
-                <img src="logo.svg" alt="logo">
-            </div>
-            <div class="coming-soon">
-                <h1><span class="thin">WE'RE</span>
-                    <br> Coming
-                    <br> SOON
+            <div class="intro">
+                <h1>
+                    Learn to code by
+                    <br> watching others
                 </h1>
-                <p class="intro-para">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with anouncements and our launch deals.</p>
-                <form>
-                    <input type="email" name="email" id="email" placeholder="Email Address">
-                    <button type="button" id="subBtn" title="button"><img src="icon-arrow.svg" alt="icon"></button>
-                </form>
-                <p class="error-msg" id="err">Please provide a valid email</p>
+                <p>
+                    See how expiernced developers solve problems in real-time. Watching scripted tutorials is a great, but understanding how developers think is invaluable.
+                </p>
             </div>
-            <div class="grid-image">
-                <img src="hero-desktop.jpg" alt="hero-img" class="desktop">
-                <img src="hero-mobile.jpg" alt="hero-img" class="mobile">
+            <div class="form">
+                <div class="notice shadow">
+                    <p>
+                        <span class="thick">
+                        Try it free 7 days
+                    </span> then $20/mo. thereafter
+                    </p>
+                </div>
+                <div class="form-body shadow">
+                    <form>
+                        <input type="text" name="f_name" id="f_name" placeholder="First Name">
+                        <p class="err_msg">First Name cannot be empty</p>
+                        <input type="text" name="l_name" id="l_name" placeholder="Last Name">
+                        <p class="err_msg">Last Name cannot be empty</p>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <p class="err_msg">Looks like this is not an email</p>
+                        <input type="password" name="password" id="pass" placeholder="Password">
+                        <p class="err_msg">Password cannot be empty</p>
+                        <button type="button" title="button" id="btn">Claim your free trail</button>
+                        <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
     <script type="module" src="main.js"></script>
-    <script type="module" src="node_modules/index.js"></script>
 </body>
 
 </html>
