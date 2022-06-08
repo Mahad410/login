@@ -9,7 +9,6 @@
     --green: #38cc8c;
     --silver: #ccc;
     --grayish: #b9b6d3;
-    --error: url(/icon-error.svg);
     --visible: hidden;
 }
 
@@ -150,7 +149,7 @@ a:hover {
 .err_msg:after {
     content: "";
     position: absolute;
-    background-image: var(--error);
+    background-image: url(icon-error.svg);
     background-size: cover;
     width: 25px;
     height: 25px;
