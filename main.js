@@ -38,7 +38,7 @@ lname.addEventListener('focus', () => {
 })
 
 lname.addEventListener('focusout', () => {
-    if (fname.value <= 0 || fname.value == null || fname.value == undefined) {
+    if (lname.value <= 0 || lname.value == null || lname.value == undefined) {
         errMsg[1].style.setProperty('--visible', 'visible');
 
     } else {
