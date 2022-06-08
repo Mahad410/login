@@ -9,7 +9,7 @@
     --green: #38cc8c;
     --silver: #ccc;
     --grayish: #b9b6d3;
-    --error: url(/icon-error.svg);
+    --error: url(/icon-error.png);
     --visible: hidden;
 }
 
@@ -68,6 +68,7 @@ main {
 .intro h1 {
     font-size: 3.5rem;
     line-height: 4rem;
+    margin-bottom: 10px;
 }
 
 .intro p {
