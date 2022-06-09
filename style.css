@@ -4,8 +4,6 @@
     --black: #000;
     --pink: #ff7a7a;
     --purple: #6055a5;
-    --bg_desktop: url(/bg-intro-desktop.png);
-    --bg_mbl: url(/bg-intro-mobile.png);
     --green: #38cc8c;
     --silver: #ccc;
     --grayish: #b9b6d3;
@@ -25,7 +23,7 @@ main {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
     background-color: var(--pink);
-    background-image: var(--bg_desktop);
+    background-image: url(/bg-intro-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--white);
@@ -180,7 +178,7 @@ a:hover {
 @media screen and (max-width:480px) {
     main {
         padding: 50px 0;
-        background-image: var(--bg_mbl);
+        background-image: url(/bg-intro-mobile.png);
         overflow: visible
     }
     .grid {
