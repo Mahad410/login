@@ -23,7 +23,7 @@ main {
     overflow: hidden;
     font-family: 'Poppins', sans-serif;
     background-color: var(--pink);
-    background-image: url(/bg-intro-desktop.png);
+    background-image: url(bg-intro-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: var(--white);
@@ -178,7 +178,7 @@ a:hover {
 @media screen and (max-width:480px) {
     main {
         padding: 50px 0;
-        background-image: url(/bg-intro-mobile.png);
+        background-image: url(bg-intro-mobile.png);
         overflow: visible
     }
     .grid {
